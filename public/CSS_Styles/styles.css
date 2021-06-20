@@ -1,0 +1,164 @@
+body{
+  background-color: #2E3178;
+
+}
+
+
+h1{
+  text-align: center;
+  font-family: 'Bungee Inline', cursive;
+  font-size: 7rem;
+  padding: 20% 0 15%;
+  color: #2E3178;
+}
+
+/* Title Section */
+.Logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  height: 100%;
+  animation: rotation 25s infinite linear;
+
+}
+@keyframes rotation {
+  from { transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(359deg);
+  }
+}
+
+.titlerow{
+  padding: 5% 0 2% 0;
+
+}
+
+
+.Title{
+  background-color: #93278F;
+
+
+}
+
+
+
+
+
+/* Navbar */
+.navbar{
+  text-align: center;
+  padding: 0.5rem 0 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 200%;
+}
+
+
+ul{
+  text-align: center;
+}
+
+
+
+
+
+/* About */
+
+.About{
+  background-color: #2E3178;
+  padding: 0 10% 2% 10%;
+}
+h3{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3rem;
+  color: #ecf3f9;
+}
+
+p{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  color: #ecf3f9;
+}
+
+.band-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 50%;
+  padding: 2%;
+  border-radius: 100%;
+}
+
+.about-jumbo{
+  background-color: #2E3178;
+  padding: 2% 3% 0 3%;
+
+}
+
+/* Contact Form */
+.Contact{
+  background-color: #2E3178;
+  padding: 0 10% 2% 10%;
+
+}
+
+.contactLabel{
+  padding: 1%;
+  color: #ecf3f9;
+
+}
+
+.form-group{
+  padding: 0;
+  text-align: center;
+}
+
+.sendButt{
+  text-align: center;
+
+}
+/* Listen Here Section */
+.Listen{
+  background-color: #2E3178;
+  padding: 0 10% 2% 10%;
+
+}
+
+.Listen-Title{
+  padding: 2%;
+}
+
+
+/* Footer */
+
+
+#foot{
+  background-color: #93278F;
+color: #2E3178;
+padding-bottom: 1%;
+
+}
+.foot-jumbo{
+  /* background-color:#2E3178; */
+  padding-top: 1%;
+  width: 85%;
+  border-radius: 10px;
+
+}
+
+.footer-Title{
+  font-family: 'Bungee Inline', cursive;
+  color:#2E3178;
+}
+.footer-copyright{
+  font-family: 'Bungee Inline', cursive;
+  color: #2E3178;
+}
+.footer-email{
+  font-family: 'Bungee Inline', cursive;
+  color:#2E3178;
+}
