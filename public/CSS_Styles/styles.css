@@ -30,8 +30,8 @@ h1{
   }
 }
 
-@media (max-width:629px) {
-  img#bandLogo {
+@media only screen and (max-width: 700px) {
+  #bandLogo {
     display: none;
   }
 }
